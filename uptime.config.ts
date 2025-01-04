@@ -3,9 +3,10 @@ const pageConfig = {
   title: "Babe's Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
-    { link: 'https://github.com/DbuyCN', label: 'dBuyGIT' },
+    { link: 'https://github.com/DbuyCN', label: 'dBuyHUB' },
     { link: 'https://ip-api.com/', label: 'IP-API' },
-    { link: 'https://maswills-qinglong.hf.space/', label: 'Qinglong' },
+    { link: 'https://www.uuidgenerator.net/', label: 'UUID' },
+    { link: 'https://maswills-qinglong.hf.space/', label: '青龙面板' },
   ],
 }
 
@@ -23,7 +24,7 @@ const workerConfig = {
       // `name` is used at status page and callback message
       name: 'CHIAOS-US-KG',
       // `method` should be a valid HTTP Method
-      method: 'GET',
+      method: 'TCP_PING',
       // `target` is a valid URL
       target: 'https://chiaos.us.kg/',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
