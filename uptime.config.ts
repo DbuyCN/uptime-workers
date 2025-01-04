@@ -3,10 +3,9 @@ const pageConfig = {
   title: "Babe's Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
-    { link: 'https://www.sinoxiu.com/', label: 'SINOXIU' },
-    { link: 'https://chiaos.us.kg/', label: 'CHIAOS' },
-    { link: 'http://60.204.242.164:5212/', label: 'CLOUDREVE' },
-    { link: 'https://maswills-qinglong.hf.space/', label: 'Qinglong Huggingface' },
+    { link: 'https://github.com/DbuyCN', label: 'dBuyGIT' },
+    { link: 'https://ip-api.com/', label: 'IP-API' },
+    { link: 'https://maswills-qinglong.hf.space/', label: 'Qinglong' },
   ],
 }
 
