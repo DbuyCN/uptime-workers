@@ -25,11 +25,11 @@ const workerConfig = {
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
-      target: 'https://chiaos.us.kg',
+      target: 'https://chiaos.us.kg/',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
-      tooltip: 'This is a tooltip for this monitor',
+      tooltip: 'site chiaos.us.kg',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
-      statusPageLink: 'https://chiaos.us.kg',
+      statusPageLink: 'https://chiaos.us.kg/',
       // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
       expectedCodes: [200],
       // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
@@ -55,7 +55,7 @@ const workerConfig = {
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
       target: 'https://maswills-qinglong.hf.space/',
-      tooltip: 'My production server monitor',
+      tooltip: 'Qinglong Huggingface',
       statusPageLink: 'https://maswills-qinglong.hf.space/',
       timeout: 10000,
     },
@@ -66,7 +66,7 @@ const workerConfig = {
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
       target: 'https://mas.serv00.net/',
-      tooltip: 'My production server monitor',
+      tooltip: 's4 server monitor',
       statusPageLink: 'https://mas.serv00.net/',
       timeout: 10000,
     },
@@ -77,7 +77,7 @@ const workerConfig = {
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
       target: 'https://naodu.serv00.net/',
-      tooltip: 'My production server monitor',
+      tooltip: 's8 server monitor',
       statusPageLink: 'https://naodu.serv00.net/',
       timeout: 10000,
     },
@@ -88,7 +88,7 @@ const workerConfig = {
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
       target: 'https://chiaos.serv00.net/',
-      tooltip: 'My production server monitor',
+      tooltip: 's10 server monitor',
       statusPageLink: 'https://chiaos.serv00.net/',
       timeout: 10000,
     },
