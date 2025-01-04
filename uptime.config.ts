@@ -19,17 +19,17 @@ const workerConfig = {
     // Example HTTP Monitor
     {
       // `id` should be unique, history will be kept if the `id` remains constant
-      id: 'foo_monitor',
+      id: 'chiaos_us_kg',
       // `name` is used at status page and callback message
-      name: 'My API Monitor',
+      name: 'CHIAOS-US-KG',
       // `method` should be a valid HTTP Method
-      method: 'POST',
+      method: 'GET',
       // `target` is a valid URL
-      target: 'https://example.com',
+      target: 'https://chiaos.us.kg',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
       tooltip: 'This is a tooltip for this monitor',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
-      statusPageLink: 'https://example.com',
+      statusPageLink: 'https://chiaos.us.kg',
       // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
       expectedCodes: [200],
       // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
@@ -49,15 +49,48 @@ const workerConfig = {
     },
     // Example TCP Monitor
     {
-      id: 'test_tcp_monitor',
-      name: 'Example TCP Monitor',
+      id: 'qinglong_huggingface',
+      name: '青龙面板HUG',
       // `method` should be `TCP_PING` for tcp monitors
-      method: 'TCP_PING',
+      method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: '1.2.3.4:22',
-      tooltip: 'My production server SSH',
-      statusPageLink: 'https://example.com',
-      timeout: 5000,
+      target: 'https://maswills-qinglong.hf.space/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://maswills-qinglong.hf.space/',
+      timeout: 10000,
+    },
+      {
+      id: 's4_serv00_com',
+      name: 'Serv00-S4',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://mas.serv00.net/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://mas.serv00.net/',
+      timeout: 10000,
+    },
+      {
+      id: 's8_serv00_com',
+      name: 'Serv00-S8',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://naodu.serv00.net/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://naodu.serv00.net/',
+      timeout: 10000,
+    },
+      {
+      id: 's10_serv00_com',
+      name: 'Serv00-S10',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://chiaos.serv00.net/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://chiaos.serv00.net/',
+      timeout: 10000,
     },
   ],
   notification: {
