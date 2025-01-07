@@ -72,17 +72,6 @@ const workerConfig = {
       timeout: 10000,
     },
       {
-      id: 's8_serv00_com',
-      name: 'Serv00-S8',
-      // `method` should be `TCP_PING` for tcp monitors
-      method: 'GET',
-      // `target` should be `host:port` for tcp monitors
-      target: 'https://naodu.serv00.net/',
-      tooltip: 's8 server monitor',
-      statusPageLink: 'https://naodu.serv00.net/',
-      timeout: 10000,
-    },
-      {
       id: 's10_serv00_com',
       name: 'Serv00-S10',
       // `method` should be `TCP_PING` for tcp monitors
